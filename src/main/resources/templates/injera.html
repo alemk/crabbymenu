@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th=" www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Injera recipe</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+    <link rel="stylesheet" type="text/css" href="/css/stylesheet.css"/>
+</head>
+<body>
+
+<div class="navigation">
+    <div class="container">
+        <a class="btn btn-primary" th:href="@{'/'}" >Home</a>
+
+        <div class="dropdown" >
+            <button class="btn btn-primary">Recipe</button>
+            <div class="dropdown-content">
+                <a th:href="@{'/injera'}">Injera</a>
+                <a th:href="@{'/crabby'}">Crab cake</a>
+            </div>
+        </div>
+        <a class="btn btn-primary" th:href="@{'/gallery}" >Gallery</a>
+    </div>
+</div>
+    <img src="/images/flagofEthiopia.jpg" alt="Ethiopian Flag"/>
+<div class="injera">
+
+<h1 class="greentext">Injera-Ethiopian recipe</h1>
+<h5>Ingredients</h5>
+<ul>
+    <li>¾ cup teff flour (found in health food shops)</li>
+
+    <li> 3½ cups water</li>
+
+    <li> pinch of salt</li>
+</ul>
+<h5>Directions</h5>
+<p>
+<ol>
+    <li>Standing time 2 days</li>
+
+    <li>Mix teff with the water. Leave to stand in a covered bowl for a couple of days until it starts to bubble.</li>
+
+    <li>The mixture should be slightly sour and the consistency of crêpe batter. Stir in the salt.</li>
+
+    <li>Add a ladle of the mixture to a pre-heated skillet and cook slowly until air bubbles rise to the top.</li>
+
+    <li> Do not let it brown, and make sure that it is not too thick.</li>
+</ol>
+</p>
+
+    <img src="/images/choppedinjera.jpg"/>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+</html>
