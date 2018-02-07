@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html xmlns:th=" www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8"  name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Gulab Jamun</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+
+    <link th:href="@{'/css/stylesheet.css'}" rel="stylesheet"/>
+    <link href="/css/stylesheet.css" rel="stylesheet"/>
+</head>
+<body >
+<header>
+    <div class="navigation" >
+        <div class="container" >
+            <a class="btn btn-primary" th:href="@{'/'}" >Home</a>
+
+            <div class="dropdown" >
+                <button class="btn btn-primary">Recipe</button>
+                <div class="dropdown-content" >
+                    <a  th:href="@{'/injera'}">Injera</a>
+                    <a th:href="@{'/crabby'}">Crab cake</a>
+                    <a th:href="@{'/gulabJamun'}">Gulab Jamun</a>
+                </div>
+            </div>
+            <a class="btn btn-primary" th:href="@{'/gallery}" >Gallery</a>
+        </div>
+    </div>
+</header>
+<main>
+    <h1>Gulab Jamun </h1>
+
+    <img src="/images/indiaflag.png"/>
+</main>
+<div class="container-fluid text-center">
+    <div class="row content">
+        <div class="col-sm-2 sidenav">
+            <H5>Ingredients</H5>
+            1 cup dry milk powder
+            1 cup dry milk powder
+            <ul>
+                <li>1 cup dry milk powder </li>
+                <li>1 cup dry milk powder</li>
+                <li> 3 tablespoons all-purpose flour</li>
+                <li> 2 tablespoons ghee (clarified butter), melted</li>
+                <li> 1/2 teaspoon baking powder</li>
+                <li>1/2 cup warm milk</li>
+                <li> 1 tablespoon chopped almonds (optional)</li>
+                <li> 1 tablespoon chopped pistachio nuts (optional)</li>
+                <li> 1 tablespoon chopped pistachio nuts (optional)</li>
+                <li>1 tablespoon golden raisins (optional)</li>
+                <li>1 pinch ground cardamom</li>
+                <li>1 quart vegetable oil for deep frying</li>
+                <li>1 1/4 cups white sugar</li>
+                <li> 7 fluid ounces water</li>
+                <li>1 teaspoon rose water</li>
+                <li> 1 pinch ground cardamom</li>
+            </ul>
+        </div>
+
+        <div class="col-sm-8 text-left">
+        <h1>Directions</h1>
+        <hr/>
+        <P> In a large bowl, stir together the milk powder, flour, baking powder, and cardamom. Stir in the almonds, pistachios
+            and golden raisins. Mix in the melted ghee, then pour in the milk, and continue to mix until well blended. Cover
+            and let rest for 20 minutes.</P>
+        <p>In a large skillet, stir together the sugar, water, rose water and a pinch of cardamom. Bring to a boil, and
+            simmer for just a minute. Set aside.</p>
+        <p> Fill a large heavy skillet halfway with oil. Heat over medium heat for at least 5 minutes. Knead the dough,
+            and form into about 20 small balls. Reduce the heat of the oil to low, and fry the balls in one or two batches.
+            After about 5 minutes, they will start to float, and expand to twice their original size, but the color will not
+            change much. After the jamun float, increase the heat to medium, and turn them frequently until light golden. Remove
+            from the oil to paper towels using a slotted spoon, and allow to cool. Drain on paper towels and allow to cool slightly.</p>
+        <p> Place the balls into the skillet with the syrup. Simmer over medium heat for about 5 minutes, squeezing them gently to soak
+            up the syrup. Serve immediately, or chill.</p>
+
+            <img src="/images/Gulaab-Jamuns-2-010.jpg"/></div>
+
+    </div>
+</div>
+<footer  class="container-fluid text-center">
+    copyright©Alemk.2018
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

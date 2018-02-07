@@ -13,8 +13,12 @@ h1{
 }
 img {
     height: 100px;
-    width: 100px;
+    width: 200px;
 }
+.img-flag{
+
+}
+
 .dropbtn {
     background-color: #4CAF50;
     color: white;
@@ -22,7 +26,6 @@ img {
     font-size: 16px;
     border: none;
 }
-
 .dropdown {
     position: relative;
     display: inline-block;
@@ -53,4 +56,31 @@ img {
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
-.
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.row.content {height: 450px}
+
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height:auto;}
+}

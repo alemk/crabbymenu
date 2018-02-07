@@ -21,4 +21,8 @@ public class MainController {
     public String crabbby() {
         return "crabby";
     }
+    @RequestMapping("gulabJamun")
+    public String gulabJamun(){return "gulabJamun";}
+    @RequestMapping("jerkchicken")
+    public String jerkchicken(){return "jerkchicken";}
 }
